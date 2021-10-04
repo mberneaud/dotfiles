@@ -51,4 +51,8 @@
   rebase = false
 
 [init]
-  defaultBranch = master
+  defaultBranch = main
+
+[user]
+	email = malte.berneaud@gmail.com
+	name = Malte Berneaud
