@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "[python]": {
         "editor.bracketPairColorization.enabled": false,
         "editor.guides.bracketPairs": false,
@@ -19,14 +20,64 @@
     "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
     "emmet.includeLanguages": {
+=======
+    "editor.detectIndentation": true,
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "alt",
+    "editor.insertSpaces": true,
+    // Controls if suggestions should automatically show up when typing trigger characters
+    "editor.suggestOnTriggerCharacters": false,
+    // Controls if suggestions should be accepted 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Jetbrains Mono",
+
+    "editor.tabSize": 2,
+    "editor.rulers":
+    [
+        80,
+        120
+    ],
+    "editor.renderControlCharacters": true,
+    "editor.snippetSuggestions": "top",
+    "editor.trimAutoWhitespace": true,
+    "editor.useTabStops": true,
+    "editor.fontSize": 12,
+    "editor.scrollBeyondLastLine": true,
+    "editor.showFoldingControls": "always",
+    "editorWidget.background": "#636980",
+    "emmet.includeLanguages":
+    {
+>>>>>>> b404d91 (updates over time to own config files)
         "erb": "html"
     },
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDelete": false,
+<<<<<<< HEAD
     "files.exclude": {
         "__pycache__": true,
         "_site": true,
+=======
+    "window.restoreWindows": "none",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "files.hotExit": "off",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude":
+    {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "node_modules": true,
+        "tmp": true,
+        "log": true,
+>>>>>>> b404d91 (updates over time to own config files)
         ".asset-cache": true,
         ".bundle": true,
         ".ipynb_checkpoints": true,
@@ -56,11 +107,22 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
+<<<<<<< HEAD
     "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
     "python.defaultInterpreterPath": "~/.pyenv/shims/python",
+=======
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "[python]":
+    {
+        "editor.tabSize": 4,
+        "editor.formatOnPaste": false
+    },
+    "python.pythonPath": "~/.pyenv/shims/python",
+>>>>>>> b404d91 (updates over time to own config files)
     "python.formatting.provider": "yapf",
     "python.languageServer": "Pylance",
     "python.linting.enabled": false,
@@ -76,5 +138,30 @@
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
+<<<<<<< HEAD
     "workbench.panel.defaultLocation": "right"
+=======
+    "security.workspace.trust.untrustedFiles": "open",
+    "notebook.cellFocusIndicator": "border",
+    "jupyter.askForKernelRestart": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "explorer.confirmDragAndDrop": false,
+    "azureFunctions.showPythonVenvWarning": false,
+    "tabnine.experimentalAutoImports": true,
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false,
+        "python": false
+    },
+    "editor.inlineSuggest.enabled": true,
+    "git.autofetch": true,
+    "azureFunctions.showProjectWarning": false,
+    "workbench.colorTheme": "Dracula Soft",
+    "window.zoomLevel": 1,
+    "disable-copilot-comment-completions.active": true,
+    "github.copilot.inlineSuggest.enable": true,
+    "terminal.integrated.defaultProfile.osx": "zsh"
+>>>>>>> b404d91 (updates over time to own config files)
 }

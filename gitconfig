@@ -13,6 +13,7 @@
   pager = less -FRSX
   editor = code --wait
 
+
 [alias]
   co = checkout
   st = status -sb
