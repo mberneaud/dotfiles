@@ -1,4 +1,7 @@
 # Setup the PATH for pyenv binaries and shims
-export PYENV_ROOT="$HOME/.pyenv"
+export PYENV_ROOT="/usr/local/opt/pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-type -a pyenv > /dev/null && eval "$(pyenv init --path)"
+eval "$(pyenv init --path)"
+#export PYENV_ROOT="$HOME/.pyenv"
+#export PATH="$PYENV_ROOT/bin:$PATH"
+#type -a pyenv > /dev/null && eval "$(pyenv init --path)"

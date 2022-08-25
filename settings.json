@@ -1,9 +1,17 @@
 {
-    "editor.detectIndentation": false,
+    "editor.detectIndentation": true,
     "editor.formatOnPaste": true,
     "editor.minimap.enabled": false,
-    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.multiCursorModifier": "alt",
     "editor.insertSpaces": true,
+    // Controls if suggestions should automatically show up when typing trigger characters
+    "editor.suggestOnTriggerCharacters": false,
+    // Controls if suggestions should be accepted 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.fontFamily": "Jetbrains Mono",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Jetbrains Mono",
+
     "editor.tabSize": 2,
     "editor.rulers":
     [
@@ -14,9 +22,10 @@
     "editor.snippetSuggestions": "top",
     "editor.trimAutoWhitespace": true,
     "editor.useTabStops": true,
-    "editor.fontSize": 17,
+    "editor.fontSize": 12,
     "editor.scrollBeyondLastLine": true,
     "editor.showFoldingControls": "always",
+    "editorWidget.background": "#636980",
     "emmet.includeLanguages":
     {
         "erb": "html"
@@ -27,7 +36,7 @@
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "eq-material-theme-icons",
     "files.hotExit": "off",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -62,12 +71,12 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "[python]":
     {
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        "editor.formatOnPaste": false
     },
     "python.pythonPath": "~/.pyenv/shims/python",
     "python.formatting.provider": "yapf",
@@ -77,6 +86,25 @@
     },
     "workbench.startupEditor": "newUntitledFile",
     "security.workspace.trust.untrustedFiles": "open",
-    "workbench.colorTheme": "Palenight Theme",
-    "window.zoomLevel": -1
+    "notebook.cellFocusIndicator": "border",
+    "jupyter.askForKernelRestart": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "explorer.confirmDragAndDrop": false,
+    "azureFunctions.showPythonVenvWarning": false,
+    "tabnine.experimentalAutoImports": true,
+    "github.copilot.enable": {
+        "*": false,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false,
+        "python": false
+    },
+    "editor.inlineSuggest.enabled": true,
+    "git.autofetch": true,
+    "azureFunctions.showProjectWarning": false,
+    "workbench.colorTheme": "Dracula Soft",
+    "window.zoomLevel": 1,
+    "disable-copilot-comment-completions.active": true,
+    "github.copilot.inlineSuggest.enable": true,
+    "terminal.integrated.defaultProfile.osx": "zsh"
 }
