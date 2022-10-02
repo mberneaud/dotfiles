@@ -1,9 +1,11 @@
 {
-<<<<<<< HEAD
     "[python]": {
-        "editor.bracketPairColorization.enabled": false,
-        "editor.guides.bracketPairs": false,
-        "editor.tabSize": 4
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": true,
+        "editor.tabSize": 4,
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.python"
     },
     "editor.bracketPairColorization.enabled": true,
     "editor.detectIndentation": false,
@@ -19,10 +21,9 @@
     "editor.showFoldingControls": "always",
     "editor.snippetSuggestions": "top",
     "editor.tabSize": 2,
-    "emmet.includeLanguages": {
-=======
     "editor.detectIndentation": true,
-    "editor.formatOnPaste": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "alt",
     "editor.insertSpaces": true,
@@ -48,19 +49,7 @@
     "editor.scrollBeyondLastLine": true,
     "editor.showFoldingControls": "always",
     "editorWidget.background": "#636980",
-    "emmet.includeLanguages":
-    {
->>>>>>> b404d91 (updates over time to own config files)
-        "erb": "html"
-    },
-    "emmet.showSuggestionsAsSnippets": true,
-    "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDelete": false,
-<<<<<<< HEAD
-    "files.exclude": {
-        "__pycache__": true,
-        "_site": true,
-=======
     "window.restoreWindows": "none",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
@@ -77,7 +66,6 @@
         "node_modules": true,
         "tmp": true,
         "log": true,
->>>>>>> b404d91 (updates over time to own config files)
         ".asset-cache": true,
         ".bundle": true,
         ".ipynb_checkpoints": true,
@@ -107,40 +95,30 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-<<<<<<< HEAD
     "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
     "python.defaultInterpreterPath": "~/.pyenv/shims/python",
-=======
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "[python]":
-    {
-        "editor.tabSize": 4,
-        "editor.formatOnPaste": false
-    },
-    "python.pythonPath": "~/.pyenv/shims/python",
->>>>>>> b404d91 (updates over time to own config files)
-    "python.formatting.provider": "yapf",
+    "python.formatting.provider": "black",
     "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
     "python.linting.enabled": false,
     "python.linting.flake8Enabled": false,
     "python.linting.pylintEnabled": false,
     "python.terminal.activateEnvironment": false,
     "telemetry.telemetryLevel": "off",
     "window.restoreWindows": "none",
+    "window.restoreFullscreen": true,
     "window.newWindowDimensions": "maximized",
     "workbench.editor.enablePreview": true,
-    "workbench.iconTheme": "vscode-great-icons",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
-<<<<<<< HEAD
-    "workbench.panel.defaultLocation": "right"
-=======
+    "workbench.panel.defaultLocation": "bottom",
     "security.workspace.trust.untrustedFiles": "open",
     "notebook.cellFocusIndicator": "border",
     "jupyter.askForKernelRestart": false,
@@ -157,11 +135,10 @@
     },
     "editor.inlineSuggest.enabled": true,
     "git.autofetch": true,
-    "azureFunctions.showProjectWarning": false,
-    "workbench.colorTheme": "Dracula Soft",
+    "azureFunctions.showProjectWarning": true,
+    "workbench.colorTheme": "Dracula",
     "window.zoomLevel": 1,
     "disable-copilot-comment-completions.active": true,
-    "github.copilot.inlineSuggest.enable": true,
-    "terminal.integrated.defaultProfile.osx": "zsh"
->>>>>>> b404d91 (updates over time to own config files)
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "editor.accessibilitySupport": "off"
 }
