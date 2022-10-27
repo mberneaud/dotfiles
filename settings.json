@@ -5,7 +5,12 @@
         "editor.tabSize": 4,
         "editor.formatOnPaste": false,
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "ms-python.python"
+        "editor.defaultFormatter": "ms-python.python",
+        "python.linting.pylintEnabled": true,
+        "python.linting.enabled": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImport": true
+        }
     },
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": true,
@@ -113,5 +118,6 @@
     "window.zoomLevel": 1,
     "disable-copilot-comment-completions.active": true,
     "terminal.integrated.defaultProfile.osx": "zsh",
-    "editor.accessibilitySupport": "off"
+    "editor.accessibilitySupport": "off",
+    "editor.renderWhitespace": "none"
 }
